@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "niraj.code"
+    },
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "microservice",
+    "baseName": "exercise",
+    "packageName": "niraj.code",
+    "packageFolder": "niraj/code",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTAzZTQ4NTk2ZDg1ZTcxMzQ2NTJiOWYwZWE1OGVkNDAwODdiYjc3ZGQ3N2QyMzc1NmJhYzI1MWVkNzljOWQzZWJkNmFhMmQ1MjRkN2ZiM2QwYzJkMWQyY2NjZmZhMTZjMzM4YzcyY2RlMTA2YTViZWZhODJkOTY0Zjk1ODVlMDc=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1605902420693,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
