@@ -280,6 +280,13 @@ dependencies {
     testImplementation "org.hamcrest:hamcrest-library"
     testImplementation "com.h2database:h2"
     liquibaseRuntime "com.h2database:h2"
+    
+    implementation("io.springfox:springfox-swagger2") {
+    exclude module: "mapstruct"
+  }
+  implementation ("io.springfox:springfox-swagger-ui:2.10.5") {
+        exclude module: "mapstruct"
+    }
     //jhipster-needle-gradle-dependency - JHipster will add additional dependencies here
 }
 

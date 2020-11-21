@@ -1,0 +1,49 @@
+{
+    "name": "Employee",
+    "fields": [
+        {
+            "fieldName": "employeeId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "employeeName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "businessUnit",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "place",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "supervisorId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "competencies",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "salary",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20201120200438",
+    "entityTableName": "employee",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "exercise",
+    "applications": "*",
+    "microserviceName": "exercise"
+}
